@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18"
+            android:id="@+id/hour"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+
+             />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:id="@+id/split"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="53"
+            android:id="@+id/minute"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:textSize="30sp"
+
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAY"
+            android:id="@+id/month"
+            android:textColor="#aaa"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:id="@+id/date"
+            android:layout_marginRight="5dp"
+            android:textColor="#fff"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THU"
+            android:id="@+id/day"
+            android:textColor="#aaa"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+
+        android:layout_margin="6dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tHigh"
+            android:textStyle="bold"
+            android:text="25"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tLow"
+            android:textStyle="normal"
+            android:text="16"
+            android:textColor="#aaa"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
